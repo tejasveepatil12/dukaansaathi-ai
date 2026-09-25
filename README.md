@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🛒 DukaanSaathi AI
 
-First, run the development server:
+**Autonomous AI Business Partner for Indian Kirana Merchants**
+
+*A submission for the Paytm Build for India AI Hackathon – Mumbai Edition (Merchant Growth AI Track)*
+
+
+
+> **DukaanSaathi AI** is a smart, accessible dashboard and voice-activated AI assistant tailored for Paytm merchants. It translates complex store data into proactive, simple-language insights and autonomous actions.
+
+---
+
+## 🚀 The Problem
+
+India's millions of SMBs and Kirana stores form the backbone of retail, yet they lack access to affordable, data-driven business intelligence.
+
+* ❌ Complex retail software is too expensive and difficult to learn.
+* ❌ Manual ledgers lead to missed growth opportunities.
+* ❌ No automated way to track dormant customers and re-engage them.
+
+## 💡 Our Solution
+
+Instead of just showing static graphs, DukaanSaathi acts as an **autonomous AI teammate**. It spots trends, recommends actions, and executes retention campaigns via SMS—all through natural conversational voice and chat commands.
+
+---
+
+## ✨ Features & Roadmap
+
+### 🟢 Current Prototype (Hackathon Submission)
+
+| Feature | Description |
+| --- | --- |
+| 📊 **Smart Dashboard UI** | Clean, responsive Next.js interface with daily sales & footfall analytics. |
+| 🎙️ **Voice & Chat Assistant** | Interactive modal to request data and execute campaigns naturally. |
+| 🤖 **Simulated Action Pipeline** | Keyword-driven AI response system demonstrating the insight-to-action workflow. |
+| ⚡ **Live Deployment** | Fully hosted and accessible instantly on any device via Vercel. |
+
+### 🚀 Production Roadmap (October 3rd Sprint)
+
+* **Live LLM Integration:** Transitioning to **Groq (Llama 3)** and **Google Gemini** APIs for dynamic reasoning.
+* **Live Database:** Integrating **MongoDB / Supabase** to fetch real-time merchant transaction data.
+* **Twilio SMS Execution:** Enabling the AI to autonomously dispatch real promotional SMS campaigns to actual phone numbers.
+
+---
+
+## 💻 Tech Stack
+
+* **Frontend:** Next.js (App Router), TypeScript, Tailwind CSS
+* **Hosting:** Vercel
+* **Upcoming Backend:** Groq API, Gemini API, Twilio API, MongoDB
+
+---
+
+## 🏁 Local Setup Instructions
+
+To run this prototype on your own machine:
 
 ```bash
+# 1. Clone the repository
+git clone [https://github.com/tejasveepatil12/dukaansaathi-ai.git](https://github.com/tejasveepatil12/dukaansaathi-ai.git)
+
+# 2. Navigate to the directory
+cd dukaansaathi-ai
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Open [http://localhost:3000](http://localhost:3000?utm_source=gemini) in your browser to view the application.*
